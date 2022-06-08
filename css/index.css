@@ -550,6 +550,7 @@ blockquote p {
 }
 .author-discrip .author-bio {
   font-size: 1.2rem;
+  text-align: center;
   margin: 0.3rem 0;
 }
 .author-links {

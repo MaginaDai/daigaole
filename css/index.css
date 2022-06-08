@@ -547,6 +547,7 @@ blockquote p {
 .author-discrip h3 {
   margin: 0px;
   font-size: 1.8rem;
+  text-align: center;
 }
 .author-discrip .author-bio {
   font-size: 1.2rem;
@@ -557,6 +558,7 @@ blockquote p {
   display: table-cell;
   position: relative;
   vertical-align: top;
+  horizonal-align: center;
   z-index: 10;
   cursor: pointer;
 }
@@ -693,6 +695,7 @@ blockquote p {
   margin-left: 5.5rem;
 }
 .cv-links i {
+  text-align: center;
   text-decoration: underline;
 }
 .cv-links i::before {
@@ -700,11 +703,13 @@ blockquote p {
 }
 @media (min-width: 66.67em) {
   .side-card {
+    text-align: center;
     padding-right: 0;
   }
 }
 @media (min-width: 34em) {
   .side-card {
+    text-align: center;
     width: 15.25424%;
     min-width: 165px;
     float: left;

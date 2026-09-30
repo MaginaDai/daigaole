@@ -237,7 +237,8 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  color: #494e52;
+  color: #383e42;
+  background-color: #eeede8;
   font-size: 1.8em;
   line-height: 1.5;
   font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
@@ -714,7 +715,7 @@ blockquote p {
     min-width: 165px;
     float: left;
     margin-right: 1.69492%;
-    opacity: 0.75;
+    opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
   }
@@ -988,4 +989,30 @@ blockquote p {
 }
 ::-webkit-scrollbar-thumb {
   background-color: rgba(122,130,136,0.4);
+}
+
+/* A softer reading surface with clear, fully opaque profile details. */
+#page_header {
+  border-bottom-color: #d7d8d2;
+}
+.author-avatar img {
+  border-color: #d7d8d2;
+}
+#page_footer {
+  background-color: #e3e4de;
+  color: #626b70;
+  border-top-color: #c9cdc7;
+}
+#page_footer a {
+  color: #626b70;
+}
+.page .collaboration-note {
+  padding: 0.8rem 1.2rem;
+  border-left: 3px solid #648077;
+  background-color: #e1e7e0;
+  color: #364c43;
+}
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+  background-color: #eeede8;
 }
